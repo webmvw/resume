@@ -1,0 +1,73 @@
+
+/*
+	template namw: portfolio website;
+	Author: Md. Masud Rana;
+	Author Url: https://www.youtube.com/channel/UC0wr89s_815dVwiMqHknVGw?view_as=subscriber;
+	Version: 1.0;
+
+	table of content
+	------------------------
+	1. core css
+	2. sidebar css
+
+*/
+
+body{
+	background-color: #dddfe2;
+}
+h1, h2, h3{
+	font-size: 20px;
+	margin: 0px;
+}
+p, span, i, a{
+	font-size: 14px;
+	margin:0px;
+}
+
+
+.template{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+
+
+
+/* ========================================================================
+	2. sidebar css
+   ======================================================================= */
+
+.sidebar{
+	background-color: #5B9BD5;
+	text-align: center;
+	padding-bottom: 30px;
+}
+.sidebar img{
+	width: 180px;
+    height: 180px;
+    border-radius: 180px;
+    box-shadow: 0px 0px 10px green;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.sidebar h2{
+	color:#f9f9f9;
+}
+.sidebar p{
+	color:#f9f9f9;
+}
+.sidebar ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	    margin-left: 25px;
+}
+.sidebar ul li{
+	float: left;
+}
+.sidebar ul li a img{
+	    width: 30px;
+    height: 30px;
+    margin: 20px 5px;
+}
+.sidebar a{}
