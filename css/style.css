@@ -9,6 +9,7 @@
 	------------------------
 	1. core css
 	2. sidebar css
+	3. main page section css
 
 */
 
@@ -29,6 +30,36 @@ p, span, i, a{
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
+.header_area{
+	background-color: #5B9BD5;
+}
+.header_area h2{
+	color:#f9f9f9;
+	font-size: 28px;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+
+.footer_area{
+	background-color: #5B9BD5;
+	margin-top: 15px
+}
+.footer_area p{
+	color:#f9f9f9;
+	padding: 5px 0px;
+	text-align: center;
+}
+.footer_area p a{
+	color:#f9f9f9;
+}
+
+
+
+
+
+
 
 
 
@@ -70,4 +101,47 @@ p, span, i, a{
     height: 30px;
     margin: 20px 5px;
 }
-.sidebar a{}
+
+
+
+
+/* ========================================================================
+	3. main page section css
+   ======================================================================= */
+.main_page_section{}
+.main_menu{
+	background-color: #5B9BD5;
+	overflow: hidden;
+}
+.main_menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	    margin-left: 15px;
+}
+.main_menu ul li{
+	float: left;
+	color:#f9f9f9;
+	font-size: 16px;
+	padding: 5px 15px;
+	cursor: pointer;
+}
+.active{
+	background-color: #f9f9f9;
+	color: #222222 !important;
+}
+.content{
+	padding: 15px;
+}
+.single_content{
+	margin-bottom: 30px;
+}
+.single_content h2{
+	color: #5B9BD5;
+    border-bottom: 1px solid #5B9BD5;
+    padding-bottom: 5px;
+    margin: 15px 0px;
+}
+.single_content p{
+	color:#222;
+}
