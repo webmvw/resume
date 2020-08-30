@@ -11,6 +11,7 @@
 	2. sidebar css
 	3. main page section css
 	4. work experience
+	5. progress bar
 
 */
 
@@ -205,3 +206,41 @@ p, span, i, a{
 .single_experience p{
 	color:#222;
 }   
+
+
+
+
+/* ========================================================================
+	5. progress bar
+   ======================================================================= */
+.progress_bar{
+	position: relative;
+	margin-bottom: 30px;
+}
+.progress_bar span{color: #222;}
+.progress{}
+.bar{
+	background-color: #5B9BD5;
+    height: 100%;
+} 
+.progress_bar p{
+	    position: absolute;
+    top: -5px;
+    background-color: #5B9BD5;
+    color: #fff;
+    width: 55px;
+    height: 22px;
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 13px;
+}  
+.progress_bar p:after{
+	position: absolute;
+    top: 16px;
+    left: 22px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #5B9BD5;
+    transform: rotate(45deg);
+}
