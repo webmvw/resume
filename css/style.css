@@ -12,6 +12,7 @@
 	3. main page section css
 	4. work experience
 	5. progress bar
+	6. Services
 
 */
 
@@ -243,4 +244,25 @@ p, span, i, a{
     height: 10px;
     background-color: #5B9BD5;
     transform: rotate(45deg);
+}
+
+
+/* ========================================================================
+	6. Services
+   ======================================================================= */
+.single_service{
+	    margin-bottom: 20px;
+}
+.single_service i{
+	font-size: 25px;
+    float: left;
+    color: #5B9BD5;
+}
+.single_service h2{
+	    font-size: 18px;
+    margin-left: 35px;
+}
+.single_service p{
+	margin-left: 35px;
+	color:#222;
 }
