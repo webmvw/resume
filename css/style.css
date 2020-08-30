@@ -10,6 +10,7 @@
 	1. core css
 	2. sidebar css
 	3. main page section css
+	4. work experience
 
 */
 
@@ -145,3 +146,62 @@ p, span, i, a{
 .single_content p{
 	color:#222;
 }
+
+
+
+/* ========================================================================
+	4. work experience
+   ======================================================================= */
+.single_experience{
+	position: relative;
+	padding-bottom: 30px;
+}
+.single_experience:before{
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	background-color:#5B9BD5;
+	content: '';
+	top:0px;
+	left: 54px;
+
+}
+.single_experience h1{
+	font-size: 18px;
+    color: #5B9BD5;
+    width: 40px;
+    height: 40px;
+    background-color: #dddfe2;
+    border-radius: 40px;
+    border: 1px solid #5B9BD5;
+    text-align: center;
+    padding: 8px 0px;
+    margin-left: 35px;
+    margin-top: 12px;
+    position: relative;
+}
+.single_experience h1:before{
+	position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #5B9BD5;
+    content: '';
+    top: 13px;
+    left: 31px;
+    transform: rotate(45deg);
+    --webkit--transform: rotate(45deg);
+    --moz--transform: rotate(45deg);
+    --ms--transform: rotate(45deg);
+    --o--transform: rotate(45deg);
+}
+.single_experience h2{
+	border: none;
+    margin-bottom: 0px;
+}
+.single_experience h3{
+	font-size: 16px;
+	color:#222;
+}
+.single_experience p{
+	color:#222;
+}   
